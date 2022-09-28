@@ -1,0 +1,16 @@
+.header{
+    margin-top: 6%;
+    color:rgb(163, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.header h2{
+    font-weight: 400;
+}
+.header-container{
+    line-height: 0;
+    color: rgb(246, 195, 11);
+    font-size: larger;
+    font-weight: lighter;
+    margin-left: 10%;
+}
