@@ -1,14 +1,31 @@
 :root {
     --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
+    --cyan: hsl(48, 87%, 54%);
     --orange: hsl(34, 97%, 64%);
-    --blue: hsl(212, 86%, 64%);
-    --varyDarkBlue: hsl(233, 9%, 62%);
+    --blue: hsl(180, 1%, 75%);
+    --varyDarkBlue: hsl(15, 98%, 38%);
     --grayishBlue: hsl(230, 5%, 24%);
     --veryLightGray: hsl(0, 0%, 98%);
     --weight1: 200;
     --weight2: 400;
     --weight3: 600;
+}
+
+small{
+    color: rgb(111, 108, 108);
+    font-size: 0.9rem;
+  }
+strong{
+    color: rgb(111, 108, 108);
+    font-size: 1rem;
+}
+
+h5{
+    color: rgb(111, 108, 108);
+    font-size: 1.2rem;
+  }
+h3{
+    color: rgb(111, 108, 108);
 }
 
 .attribution { 
@@ -18,35 +35,9 @@
     color: hsl(228, 45%, 44%); 
 }
 
-h1:first-of-type {
-    font-weight: var(--weight1);
-    color: var(--varyDarkBlue);
-
+.row1-container{
+    margin-bottom: 2%;
 }
-
-h1:last-of-type {
-    color: var(--varyDarkBlue);
-}
-
-@media (max-width: 400px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-}
-
-.header {
-    text-align: center;
-    line-height: 0.8;
-    margin-bottom: 50px;
-    margin-top: 100px;
-}
-
-.header p {
-    margin: 0 auto;
-    line-height: 2;
-    color: var(--varyDarkBlue);
-}
-
 
 .box p {
     color: var(--varyDarkBlue);
@@ -66,6 +57,7 @@ img {
 @media (max-width: 450px) {
     .box {
         height: 400px;
+        margin-bottom: 4%;
     }
 }
 
@@ -89,7 +81,7 @@ img {
     border-top: 3px solid var(--orange);
 }
 
-h3 {
+h4 {
     color: var(--varyDarkBlue);
     font-weight: var(--weight3);
 }
@@ -100,13 +92,9 @@ h3 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 4%;
     }
     
-    .row2-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .box-down {
         position: relative;
         top: 150px;

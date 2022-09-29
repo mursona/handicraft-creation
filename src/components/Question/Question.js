@@ -7,19 +7,19 @@ const Question = () => {
 
 <div class="row1-container">
           <div class="box box-down cyan">
-          <h3></h3>
+          <h4>he</h4>
             <p>
             </p>
           </div>
       
-          <div class="box red">
-          <h3></h3>
+          <div class="box box-down red">
+          <h4>po</h4>
             <p>
             </p>
           </div>
       
           <div class="box box-down blue">
-            <h3></h3>
+            <h4>lk</h4>
             <p>
             </p>
           </div>

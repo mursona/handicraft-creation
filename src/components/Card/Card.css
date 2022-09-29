@@ -33,6 +33,7 @@
 
 .card-details h5 {
   font-size: 1.2rem;
+  color: rgb(105, 102, 102);
 }
 
 .card-details h5 span {
@@ -70,9 +71,11 @@
   padding: 0.6rem 0;
 }
 
+
 .break,
 .exercise-details,
 .break-times,
+.production-times,
 .user-details-info {
   display: flex;
   margin-right: 1rem;
@@ -104,7 +107,7 @@
     border: none;
     outline: none;
     color: #fff;
-    background-color: rgb(213, 103, 7);
+    background-color: rgb(111, 108, 108);
     cursor: pointer;
     font-weight: 600;
     font-size: 0.9rem;

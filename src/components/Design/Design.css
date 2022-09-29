@@ -1,16 +1,48 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(233, 9%, 62%);
+    --grayishBlue: hsl(230, 5%, 24%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1:first-of-type {
+    font-weight: var(--weight1);
+    color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+    color: var(--varyDarkBlue);
+}
+
+
 .design{
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     width: 280px;
     height: 450px;
     background-color: rgba(255, 255, 255, 0.821);
     border: 2px solid rgba(237, 237, 237, 0.543);
-    border-radius: 8px;
     position: relative;
 }
 .design img{
     width: 276px;
     height: 180px;
     border: 2px solid rgb(237, 237, 237);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 2px;
     
 }
@@ -41,7 +73,7 @@
 .btn-card{
     font-size: 16px;
     font-weight: bold;  
-    background-color: rgb(213, 103, 7);
+    background-color: rgb(111, 108, 108);
     border: none;
     width: 100%;
     color: white;
@@ -55,5 +87,6 @@
 }
 
 .btn-card:hover{
-    background-color:  rgb(246, 195, 11);
+    background-color:  rgb(163, 0, 0);
+    color: white;
 }

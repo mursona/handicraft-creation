@@ -27,9 +27,9 @@ const Card = ({ cardcounts}) => {
       setBreakTime(storedBreakTime);
     }, []);
   
-    let exerciseTime = 0;
+    let craftCreateTime = 0;
     for (const activity of cardcounts) {
-      exerciseTime = exerciseTime + activity.time;
+      craftCreateTime = craftCreateTime + activity.time;
     }
   
     const handleBreakTime = (breaktime) => {
@@ -69,9 +69,7 @@ const Card = ({ cardcounts}) => {
           </div>
         </div>
   
-        <h5>
-          Add A Break <span>(hr)</span>
-        </h5>
+        <h5>Add A Break (hr)</h5>
         <div className="break">
           <span onClick={(breaktime) => handleBreakTime(breaktime)}>1</span>
           <span onClick={(breaktime) => handleBreakTime(breaktime)}>2</span>
@@ -79,11 +77,10 @@ const Card = ({ cardcounts}) => {
           <span onClick={(breaktime) => handleBreakTime(breaktime)}>6</span>
           <span onClick={(breaktime) => handleBreakTime(breaktime)}>8</span>
         </div>
-  
         <h3>Production Details</h3>
-        <div className="exercise-details">
+        <div className="production-times">
           <strong>Production Time</strong>
-          <span>{exerciseTime} hour</span>
+          <span>{craftCreateTime} hour</span>
         </div>
         <div className="divider"></div>
   
