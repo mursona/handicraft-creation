@@ -1,0 +1,59 @@
+.design{
+    width: 280px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.821);
+    border: 2px solid rgba(237, 237, 237, 0.543);
+    border-radius: 8px;
+    position: relative;
+}
+.design img{
+    width: 276px;
+    height: 180px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 8px;
+    padding: 2px;
+    
+}
+.infotext{
+    line-height: 20px;
+}
+.design p{
+    padding-left: 20px;  
+    padding-right: 20px; 
+}
+.design-info{
+    margin-top: 0%;
+}
+.craftname{
+    color: rgb(163, 0, 0);
+    font-weight: bold;
+}
+.creatorname{
+    color: rgb(163, 0, 0);
+}
+.design-info p{
+    font-size: 16px;
+    font-weight: 400;  
+    padding-left: 20px;  
+    padding-right: 20px; 
+    line-height: 10px;
+}
+.btn-card{
+    font-size: 16px;
+    font-weight: bold;  
+    background-color: rgb(213, 103, 7);
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 0%;
+    position:absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-card:hover{
+    background-color:  rgb(246, 195, 11);
+}

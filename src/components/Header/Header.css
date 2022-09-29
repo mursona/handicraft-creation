@@ -12,5 +12,14 @@
     color: rgb(246, 195, 11);
     font-size: larger;
     font-weight: lighter;
-    margin-left: 10%;
+    margin-left: 8%;
 }
+
+@media (max-width: 900px) {
+    .header{
+        line-height: 40px;
+    }
+    .header-container{
+        line-height: 30px;
+    }
+  }
