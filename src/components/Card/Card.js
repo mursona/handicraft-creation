@@ -93,7 +93,7 @@ const Card = ({cardcounts}) => {
           <span>{breakTime} hour</span>
         </div>
 
-        <button onClick={showToastMessage} className='btn-toast'>design Completed</button>
+        <button onClick={showToastMessage} className='btn-toast'>Activity Completed</button>
         <ToastContainer />
       </div>
     );

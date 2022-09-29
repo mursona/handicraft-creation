@@ -32,9 +32,11 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 150vh;
+      top: 135vh;
     }
     .card-container {
+        width: 330px;
+        margin: 0%;
         position: absolute;
         top:40vh;
     }
@@ -58,8 +60,8 @@
       top: 80vh;
     }
     .card-container {
-        position: absolute;
-        top:20vh;
+      position: absolute;
+      top:20vh;
     }
     .design-container{
         order: 2;

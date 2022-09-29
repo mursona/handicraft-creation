@@ -55,7 +55,6 @@ h3{
 }
 
 .col1{
-    margin-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
     border-radius: 3px;
@@ -63,7 +62,6 @@ h3{
     border: none;
 }
 .col2{
-    margin-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
     border-radius: 3px;
@@ -101,10 +99,9 @@ hr{
 
 @media (max-width: 768px) {
     .row-container {
-      width: 80%;
+      width: 370px;
       height: 1300px;
       margin: 0%;
-      padding: 2%;
       display: grid;
       grid-template-columns: 1fr;
       top:780vh;
@@ -115,19 +112,18 @@ hr{
         position: absolute;
         margin: 0%;
         padding-right: 10px;
-        top:780vh;
+        top:785vh;
     }
   }
 
   @media (min-width: 800px) and (max-width: 1000px){
     .row-container {
-        width: 80%;
+        width: 370px;
         height: 1300px;
         margin: 0%;
-        padding: 2%;
         display: grid;
         grid-template-columns:1 1fr;
-        top:780vh;
+        top: 800vh;
         order: 3;
       }
       .question-heading{
