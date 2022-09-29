@@ -8,7 +8,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
-import Question from '../Question/Question';
 
 const showToastMessage = () => {
 
