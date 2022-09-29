@@ -8,30 +8,35 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPinLock } from '@fortawesome/free-solid-svg-icons';
+import Question from '../Question/Question';
 
 const showToastMessage = () => {
 
-    toast('Congratulations! Compelete Activity', {
+    toast('Congratulations! Compelete design', {
         position: toast.POSITION.BOTTOM_CENTER,
         className: 'toast-message'
     });
     
 };
 
-const Card = ({ cardcounts}) => {
+const Card = ({cardcounts}) => {
     
     const [breakTime, setBreakTime] = useState(0);
-  
+
+
     useEffect(() => {
       const storedBreakTime = getStoredBreakTime();
       setBreakTime(storedBreakTime);
     }, []);
   
     let craftCreateTime = 0;
-    for (const activity of cardcounts) {
-      craftCreateTime = craftCreateTime + activity.time;
+    let quantity = 0;
+    for (const design of cardcounts) {
+      quantity = quantity + design.quantity;
+      craftCreateTime = craftCreateTime + (design.time * design.quantity);
     }
-  
+
+
     const handleBreakTime = (breaktime) => {
       const element = breaktime.target;
       element.classList.toggle('active');
@@ -89,7 +94,7 @@ const Card = ({ cardcounts}) => {
           <span>{breakTime} hour</span>
         </div>
 
-        <button onClick={showToastMessage} className='btn-toast'>Activity Completed</button>
+        <button onClick={showToastMessage} className='btn-toast'>design Completed</button>
         <ToastContainer />
       </div>
     );

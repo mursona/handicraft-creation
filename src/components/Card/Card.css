@@ -101,16 +101,16 @@
 }
 .btn-toast {
     width: 95%;
-    padding: 0.6rem 1rem;
+    padding: 1rem 1rem;
     margin-top: 2.5rem;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     outline: none;
     color: #fff;
     background-color: rgb(111, 108, 108);
     cursor: pointer;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .btn-toast:hover {
     background-color:rgb(163, 0, 0);

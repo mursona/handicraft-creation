@@ -33,18 +33,16 @@ h1:last-of-type {
     border-radius: 3px;
     box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     width: 280px;
-    height: 450px;
+    height: 470px;
     background-color: rgba(255, 255, 255, 0.821);
     border: none;
     position: relative;
 }
 .design img{
-    width: 276px;
+    width: 280px;
     height: 180px;
     border: none;
     border-radius: 3px;
-    padding: 2px;
-    
 }
 .infotext{
     line-height: 20px;

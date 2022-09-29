@@ -1,12 +1,14 @@
 .header{
     margin-top: 1%;
-    color:rgb(163, 0, 0);
     display: flex;
     justify-content: space-between;
 }
 .header h2{
     font-weight: 400;
+    color:rgb(163, 0, 0);
+    text-align: left;
 }
+
 .header-container{
     line-height: 0;
     color: rgb(246, 195, 11);
@@ -14,12 +16,27 @@
     font-weight: lighter;
     margin-left: 8%;
 }
+.header-container h3{
+    font-weight: 400;
+    color:rgb(121, 120, 119);
+    text-align: left;
+    font-weight: bold;
+    margin: 0%;
+}
 
 @media (max-width: 900px) {
     .header{
-        line-height: 40px;
+        line-height: 30px;
+        margin-left: 0% ;
     }
     .header-container{
         line-height: 30px;
+    }
+    .header-container h3{
+        font-weight: 400;
+        color:rgb(121, 120, 119);
+        text-align: left;
+        font-weight:normal;
+        margin: 0%;
     }
   }
