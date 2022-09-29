@@ -1,0 +1,128 @@
+.user-info {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.user-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.location-icon {
+  color: #8fe3cf;
+}
+
+.user-details-info {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.user-details-info p {
+  margin: 0;
+}
+
+.user-details-info p strong {
+  font-size: 1.2rem;
+}
+
+.user-details-info p span {
+  color: rgb(213, 103, 7);
+}
+
+.card-details h5 {
+  font-size: 1.2rem;
+}
+
+.card-details h5 span {
+  font-size: 14px;
+}
+
+.break {
+  margin-right: 1rem;
+}
+
+.break span {
+  border-radius: 20%;
+  background-color: white;
+  color: rgb(163, 0, 0);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.break span:hover{
+  background-color:rgb(163, 0, 0);
+  color: white
+}
+
+.card-details h4 {
+  font-size: 1.4rem;
+}
+
+.divider {
+  padding: 0.6rem 0;
+}
+
+.break,
+.exercise-details,
+.break-times,
+.user-details-info {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: space-between;
+  background-color: rgba(253, 228, 175, 0.757);
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgb(163, 0, 0);
+}
+
+.exercise-details strong,
+.break-times strong {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.toast-message {
+    font-size: 20px;
+    width: 25vw;
+    height: 8vw;
+    text-align: center;
+    padding: 20px 20px;
+}
+.btn-toast {
+    width: 95%;
+    padding: 0.6rem 1rem;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(213, 103, 7);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .btn-toast:hover {
+    background-color:rgb(163, 0, 0);
+    color: white;
+  }
+
+  .loaction{
+    margin-right: 10px ;
+  }
+  @media (max-width: 900px) {
+    .toast-message{
+      width: 80vw;
+      height: 8vw;
+      text-align: center;
+      padding: 20px 20px;
+      position:static;
+    }
+  }
